@@ -24,3 +24,17 @@ char *s = "Programming is like building a multilingual puzzle";
 puts(s);                                                                                                                        
 return (0);                                                                                                                     
 }
+
+ 5. [_prints exactly_ with proper grammar, but the outcome is a piece of art, _,followed by a new line._]
+
+#include <stdio.h>                                                                                                               
+/**                                                                                                                              
+* main - Entry point                                                                                                             
+*                                                                                                                                
+* Return: Always 0 (Success)                                                                                                     
+*/                                                                                                                               
+int main(void)                                                                                                                   
+{                                                                                                                                
+printf("with proper grammar, but the outcome is a piece of art,\n");                                                             
+return (0);                                                                                                                      
+}     
