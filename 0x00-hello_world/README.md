@@ -9,18 +9,18 @@ Low level programming scripts
 
  3. gcc $CFILE -o cisfun  [compiles a C file and creates an executable named cisfun]
 
- 4. #include <stdio.h>                                                                                                               
-#include <string.h>                                                                                                              
-/**                                                                                                                              
- * main - Entry point                                                                                                            
- *                                                                                                                               
- * Return: Always 0 (Success)                                                                                                    
- */                                                                                                                              
-int main(void)                                                                                                                   
-{                                                                                                                                
-  /*string initialization*/                                                                                                      
-  char *s = "Programming is like building a multilingual puzzle";                                                                
-  puts(s);                                                                                                                       
-  return (0);                                                                                                                    
+ 4. [prints exactly "Programming is like building a multilingual puzzle, followed by a new line]
+
+#include <stdio.h>                                                                                                              
+#include <string.h>                                                                                                             
+/**                                                                                                                             
+* main - Entry point                                                                                                            
+*                                                                                                                               
+* Return: Always 0 (Success)                                                                                                    
+*/                                                                                                                              
+int main(void)                                                                                                                  
+{                                                                                                                               
+char *s = "Programming is like building a multilingual puzzle";                                                                 
+puts(s);                                                                                                                        
+return (0);                                                                                                                     
 }
-[prints exactly "Programming is like building a multilingual puzzle, followed by a new line.]
