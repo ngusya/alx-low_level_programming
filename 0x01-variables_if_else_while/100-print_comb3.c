@@ -5,22 +5,25 @@
 *
 * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-int i;
-int a;
-int b;
-
-for (i = 0; i < 100; i++)
+int i, j, k;
+for (i = 48; i < 58; i++)
 {
-a = i / 10;
-b = i % 10;
-
-putchar('0' + a);
-putchar('0' + b);
+for (j = i + 1; j < 58; j++)
+{
+for (k = j + 1; k < 58; k++)
+{
+putchar(i);
+putchar(j);
+putchar(k);
+if (i != 55 || j != 56 || k != 57)
+{
 putchar(',');
 putchar(' ');
+}
+}
+}
 }
 putchar('\n');
 return (0);
