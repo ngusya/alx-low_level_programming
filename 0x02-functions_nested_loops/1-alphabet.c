@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-* main - check the code for ALX School students.
+* print_alphabet - prints alphabet
 *
-* Return: Always 0.
+* Return: void
 */
 void print_alphabet(void)
 {
