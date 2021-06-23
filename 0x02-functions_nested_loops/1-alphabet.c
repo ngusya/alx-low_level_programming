@@ -4,9 +4,8 @@
 *
 * Return: Always 0.
 */
-int main(void)
-{
 void print_alphabet(void);
+{
 char b;
 for (b = 'a'; b <= 'z'; b++)
 {
