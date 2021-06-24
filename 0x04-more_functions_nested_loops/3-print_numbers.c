@@ -3,7 +3,7 @@
 * print_numbers - Prints numbers.
 *
 * Description: prints numbers 0 to 9 followed by new line.
-* Return: VOID
+* Return: void
 */
 
 void print_numbers(void)
