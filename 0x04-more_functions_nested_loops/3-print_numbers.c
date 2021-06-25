@@ -10,6 +10,6 @@ while (c <= '9')
 {
 _putchar(c);
 c++;
-}
 _putchar('\n');
+}
 }
