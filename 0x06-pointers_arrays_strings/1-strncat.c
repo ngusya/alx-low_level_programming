@@ -1,3 +1,5 @@
+#include "holberton.h"
+#include <stdio.h>
 /**
 * _strncat - Concat 2 strings with limit
 * @dest: dest string
