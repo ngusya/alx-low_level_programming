@@ -17,7 +17,13 @@ c = 0;
 
 largest = largest_number(a, b, c);
 
+
+if(a >= b && a >= c)
 printf("%d is the largest number\n", largest);
 
+else if (b >= a && b >= c)
+printf("%d is the largest number\n", largest);
+else
+printf ("%d is the largest number\n", largest);
 return (0);
 }
