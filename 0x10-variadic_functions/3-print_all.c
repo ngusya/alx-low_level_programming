@@ -12,7 +12,6 @@ void p_char(va_list list)
 printf("%c", va_arg(list, int));
 }
 /**
-
 * p_string - print string * @list:arg
 * Return: void
 */
@@ -34,7 +33,7 @@ printf("%s", str);
 
 void p_integer(va_list list)
 {
-  printf("%i", va_arg(list, int));
+printf("%i", va_arg(list, int));
 }
 /**
 * p_float - print float
@@ -44,7 +43,7 @@ void p_integer(va_list list)
 
 void p_float(va_list list)
 {
-  printf("%f", va_arg(list, double));
+printf("%f", va_arg(list, double));
 }
 /**
 * print_all - print everything
