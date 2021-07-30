@@ -18,7 +18,7 @@ h = h->next;
 }
 else
 {
-printf("[%d] %s\n", 0, "(nil)");
+printf("[%d] %s\n", 0, "(nil)\n");
 h = h->next;
 }
 }
