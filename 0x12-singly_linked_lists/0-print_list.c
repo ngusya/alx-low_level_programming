@@ -2,14 +2,14 @@
 
 /**
 * print_list - fills memory with a constant byte
-* @h: pointer to struct
+* @h: poiter to struct
 * Return: a number
 */
 size_t print_list(const list_t *h)
 {
-int x;
+size_t i;
 
-for (x = 0; h != NULL; x++)
+for (i = 0; h != NULL; i++)
 {
 if (h->str != NULL)
 {
@@ -18,9 +18,11 @@ h = h->next;
 }
 else
 {
-printf("[0] (nil)\n");
+
+printf("[%d] %s\n", 0, "(nil)");
+
 h = h->next;
 }
 }
-return (x);
+return (i);
 }
