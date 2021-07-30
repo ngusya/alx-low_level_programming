@@ -18,7 +18,7 @@ h = h->next;
 }
 else
 {
-printf(" [0], (nil)\n");
+printf("[0] (nil)\n");
 h = h->next;
 }
 }
