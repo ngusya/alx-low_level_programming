@@ -2,12 +2,12 @@
 
 /**
 * print_list - fills memory with a constant byte
-* @h: is the owner of the dog
+* @h: pointer to struct
 * Return: a number
 */
 size_t print_list(const list_t *h)
 {
-size_t x;
+int x;
 
 for (x = 0; h != NULL; x++)
 {
