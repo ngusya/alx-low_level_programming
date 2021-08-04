@@ -2,7 +2,8 @@
 
 /**
 * print_listint- prints lists of elements
-* @h pointer to a struct
+* @h: pointer to a struct
+*
 * Return: a number
 */
 size_t print_listint(const listint_t *h)
