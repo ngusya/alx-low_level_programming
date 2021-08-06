@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* adds a new node at the end of a list
+* add_nodeint_end - adds a new node at the end of a list
 * @head: pointer to a struct
 * @n: is a number
 * Return: a address
