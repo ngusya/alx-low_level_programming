@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* delete_nodeint_at_index
+* delete_nodeint_at_index - deletes the node at index position
 * @head: pointer to a struct
 * @index: is a number
 * Return: a number
