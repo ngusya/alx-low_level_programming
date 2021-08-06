@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* pop_listint 
+* pop_listint - deletes the head node of a listint_t linked list
 * @head: pointer to a struct
 * Return: a number
 */
