@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* returns the number of elements in listint_len
+* listint_len- returns the number of elements
 * @h: pointer to a struct
 * Return: a number
 */
