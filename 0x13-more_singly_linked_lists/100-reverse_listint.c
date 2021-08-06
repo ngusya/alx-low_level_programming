@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* reverse_listint
+* reverse_listint - reverses a listint_t linked list
 * @head: pointer to a struct
 * Return: a number
 */
