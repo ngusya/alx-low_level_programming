@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* sum_listint
+* sum_listint - sum of all the data (n) of a listint_t linked list
 * @head: pointer to a struct
 * Return: a address
 */
