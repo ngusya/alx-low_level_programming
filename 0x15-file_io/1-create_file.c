@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "main.h"
 
 /**
 *  create_file - create a file and write in it
