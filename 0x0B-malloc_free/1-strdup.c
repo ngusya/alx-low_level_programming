@@ -3,32 +3,25 @@
 #include "main.h"
 
 /**
- * *_strdup - returns a pointer to a newly allocated space in memory
- * that contains a copy of the string given as a parameter
- * @str: string
- * Return: 0
+ * _strdup - function to return ptr containing cpy of string
+ * @str: string to be copied
+ *
+ * Return: Null for failure else return ptr.
  */
-
 char *_strdup(char *str)
 {
-int i = 0, size = 0;
-char *m;
+char *s;
+int a, b;
 
-if (str == NULL)
+if (str == 0)
 return (NULL);
-
-for (; str[size] != '\0'; size++)
+for (a = 0; str[a] != '\0'; a++)
 ;
-
-m = malloc(size * sizeof(*str) + 1);
-;
-
-if (m == 0)
+a++;
+s = malloc(a * sizeof(*s));
+if (s == 0)
 return (NULL);
-else
-{
-for (; i < size; i++)
-m[i] = str[i];
-}
-return (m);
+for (b = 0; b < a; b++)
+s[b] = str[b];
+return (s);
 }
