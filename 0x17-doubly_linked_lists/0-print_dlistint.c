@@ -18,7 +18,7 @@ while (h != NULL)
 {
 printf("%d\n", h->n);
 counter++;
-h = h-> next;
+h = h->next;
 }
 return (counter);
 }
